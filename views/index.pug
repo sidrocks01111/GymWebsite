@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#{title}</title>
+     <link href="https://fonts.googleapis.com/css2?family=Langar&display=swap" rel="stylesheet">
+
+    style 
+      include ../static/style.css
+      
+
+</head>
+
+<body>
+    <!-- <h1>This is heading</h1>
+    | #{content} -->
+    <header class="header">
+        <!-- left box for logo  -->
+        <div class="left">
+            <img src="/static/icon1.jpg" alt="SINGH'S FITNESS" class="im">
+
+
+        </div>
+        <!-- mid boc for nav bar  -->
+        <div class="mid">
+            <ul class="navbar">
+                <!-- <a href="" class="k"></a> -->
+                <li><a href="#" class="active">Home</a> </li>
+                <li><a href="#">Packages</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <!-- right box for buttons  -->
+        <div class="right">
+            <input type="text" placeholder="Search this website">
+        </div>
+
+    </header>
+    <div class="container">
+        <h1>Join singh's fitness gym</h1>
+        <form action="/" method="post">
+            <div class="form-group">
+                <input type="text" name="Name" class="type" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="age" class="number" placeholder="Enter your age">
+            </div>
+            <div class="form-group">
+                <input type="date" name="dob" class="type" placeholder="Enter your date of birth">
+            </div>
+            <div class="form-group">
+                <input type="number" name="weight" class="type" placeholder="Enter your weight">
+            </div>
+            <div class="form-group">
+                <input type="email" name="email" class="type" placeholder="Enter your email address">
+            </div>
+            <div class="form-group">
+                <input type="text" name="phone" class="type" placeholder="Enter your phone number">
+            </div>
+            <div >
+                <button class="btn">SUBMIT NOW</button>
+            </div>
+
+        </form>
+    </div>
+    <!-- indentation matters a lot in pug  -->
+</body>
+
+</html>

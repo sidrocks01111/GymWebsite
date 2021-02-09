@@ -1,0 +1,110 @@
+body {
+
+    /* images should be in static folder  */
+
+    font-family: 'Langar', cursive;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    background: url(/static/bg3.jpg);
+    background-size: cover;
+    /* you can set width and height manually like this  */
+    /* background size has three properties cover(cover the whole page, contain and auto(default size)) */
+    /* background-position: 0%; */
+    background-repeat: no-repeat;
+    /* height: 1000px; */
+
+
+
+}
+
+.left {
+    display: inline-block;
+    position: absolute;
+    top: 22px;
+    left: 44px;
+    /* border: 2px solid red; */
+}
+
+.im {
+    height: 65px;
+    width: 149px;
+}
+
+.mid {
+    display: block;
+    width: 40%;
+    margin: 22px auto;
+
+    /* border: 2px solid green; */
+}
+
+.right {
+    display: inline-block;
+    position: absolute;
+    top: 22px;
+    right: 44px;
+    /* border: 2px solid blue; */
+}
+
+.navbar li {
+    display: inline-block;
+    color: white;
+    padding: 10px 30px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    color: rgb(221, 174, 174);
+    text-decoration: underline;
+}
+
+.container {
+    display: inline-block;
+    border-radius: 16px;
+    border: 2px solid white;
+    margin: 99px;
+    padding: 26px;
+    width: 339px;
+    height: 420px
+}
+
+.form-group input {
+    font-family: 'Langar', cursive;
+    border: 2px solid black;
+border-radius: 16px;
+font-size: 16px;
+text-align: center;
+display: block;
+padding: 6px;
+margin: 13px 20px;
+width: 85%;
+}
+
+.container h1 {
+    margin: 6px 3px;
+
+}
+.btn{
+    font-family: 'Langar', cursive;
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+border-radius: 16px;
+font-size: 16px;
+text-align: center;
+display: block;
+padding: 6px;
+margin: 13px 20px;
+width: 90%;
+cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(54, 52, 52);
+}
